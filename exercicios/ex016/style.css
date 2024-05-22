@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #90A19D, #F0941F);
+}
+
+main{
+    background-color: white;
+    padding: 5%;
+    width: 600px; /*largura do conteudo*/ 
+    margin: auto; 
+    border-radius: 2%; 
+    box-shadow: 5px 5px 15px #996016b7; /*1-lado,2-baixo,3-espalhamento,4-transparencia da cor*/
+}
+
+h1{
+    color: #363432;
+    text-align: center; 
+    text-shadow: 1px 1px 2px #717e7bc0; 
+}
+
+h2{
+    color: #196774;
+}
+
+p{
+    text-align: justify; 
+}
+
+/* margin -> alinhamento do conteudo.
+	margin: 10px 5px 15px 20px|auto;
+		superior  é de 10px
+		direita   é de 5px
+		inferior  é de 15px
+		esquerda  é de 20px
+	margin: auto;
+		centralizar na horizontal
+
+border-radius -> Adicionar bordinhas arredondadas
+	border-radius: 15px 50px 30px 5px
+		superior esquerdo  é de 15px
+		superior direito   é de 50px
+		inferior direito   é de 30px
+		inferior esquerdo  é de 5px
+
+padding -> É o espaço entre o conteúdo e a borda
+	padding: 10px 5px 15px 20px;
+		superior  é de 10px
+		direito   é de 5px
+		inferior  é de 15px
+		esquerdo  é de 20px
+
+text-aling -> É o alinhamento horizontal do texto
+	text-align: 
+		left-       Alinha para a esquerda
+		right-      Alinha para a direita
+		center-     Centraliza
+		justify-    Estica as linhas para que cada linha tenha a mesma largura
+		initial-    Define para o valor padrão
+		inherit-    Herda esta propriedade do seu elemento principal
+
+box-shadow -> Anexa sombras a um elemento.
+	box-shadow:
+		none-       Valor padrão. Nenhuma sombra é exibida
+		h-offset-   Deslocamento horizontal da sombra
+		v-offset-   Deslocamento vertical da sombra
+		blur-       O raio de desfoque
+		spread-     raio de propagação
+		color-      A cor da sombra
+		inset-      Muda sombra externa para sombra interior
+		initial-    Define para o valor padrão
+		inherit-    Herda esta propriedade do seu elemento pai. */

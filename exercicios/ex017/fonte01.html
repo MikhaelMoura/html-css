@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Dica: Após "font-family:", ao clicar Ctrl + Espaço, o VS Code sugere as principais safe combinations.
+
+            Medidas Absolutas:
+            cm, mm, in(polegada), px, pt, pc
+
+            Medidas Relativas:
+            
+            em	->	relativo ao tamanho natural da fonte
+            ex	->	relativo a altura x da fonte
+            rem	->	tipo em, mas relativo a fonte configurada no body
+            vw	->	relativo a largura da view port
+            vh	->	relativo a altura da view port
+            %	->	porcentagem
+
+            Recomendação w3c:  "px" ou "em"
+
+            Altura padrão:  16px ou 1em
+            */
+
+            font-size: 1em;
+
+        /*
+        Peso (negrito):	
+		- fonte mais cheia (negrito) ou fina
+		- não serve para fontes simples (arial, verdana, times,...)
+		- serve pra fontes como Work Sans (import google)
+
+
+	font-weight: nome e número;	    
+            - lighter     número: 100 até 900
+            - normal				
+            - bold				
+            - bolder				
+
+
+        Estilo (itálico):
+            font-style: valor;		
+            valor: normal, italic
+
+
+        Decoração (sublinhado):
+            text-decoration: underline;
+
+
+        Shorthand font: simplificando fontes.
+            Ex:	 font-family: 'Work Sans', sans-serif;
+                    font-weight: bolder;
+                    font-size: 3em;
+                    font-style: italic;
+            Simplificando:
+                    font: italic  bolder  3em  'Work Sans', sans-serif;
+
+    - A sequência deve ser:	
+        font-style   ->   font-weight   ->   font-size   ->   font-family;
+
+    - Não precisa ter todas as propriedades, mas a sequência deve ser seguida;
+        Ex:	font:  bold  2em  'Work Sans';
+        */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>
+        <b>Nome:</b> Theodore Yhoung<br>
+        <b>Nascimento:</b> 20.10.1938<br>
+        <b>Motivo do Atendimento:</b> A criança está apresentando dificuldade para dormir<br>
+        <b>Avaliação:</b> A criança contou que todas as noites ela acorda com um pesadelo e conta para os cuidadores que tem “alguém contando um segredo pra ela no seu ouvido”. Ela só consegue dormir com música de cantiga de ninar de fundo no quarto. Os cuidadores foram orientados a tentar cantar antes de dormir (depois tirando a música). Notei a formação de algumas marcas nas costas, como pequenos pontos de impacto.<br>
+        <b>Data do Atendimento:</b> 23.10.1944
+        <br><br>
+
+        <b>Nome:</b> Isabella Morgan<br>
+        <b>Nascimento:</b> 27.01.1939<br>
+        <b>Motivo do Atendimento:</b> Aparecimento repentino de marcas alérgicas pelo corpo<br>
+        <b>Avaliação:</b> As marcas são pequenas e espalhadas pela região das costas, punhos e pescoço. Elas não apresentam alteração de cor interna, ainda assim, se diferem do tom de pele da criança. A criança não reporta dor quando apertamos as marcas, mas também reporta não sentir quando tocamos-na na região das marcas. A recomendação foi suspender leite e glúten por um tempo, para ver se as marcas desaparecem.<br>
+        <b>Data do Atendimento:</b> 28.01.1945
+    </p>
+    <h2>Subtítulo do Exercício</h2>
+
+    <p style="text-align:justify">  
+        <b>Nome:</b> Elijah Brooks<br>
+        <b>Nascimento:</b> 25.02.1940<br> 
+        <b>Motivo do Atendimento:</b> Não consegue dormir<br>
+        <b>Avaliação:</b> A criança reclama que não consegue dormir porque “sua cabeça fica falando com ela”. Cuidadores do orfanato reportaram que isso já acontece a alguns dias, mais ou menos no mesmo período que ela aprendeu a ler e escrever. De acordo com os cuidadores, “certo dia ela acordou e estava sabendo ler e escrever, inclusive em mais de um idioma!”. Um relato exagerado, sem dúvida. A recomendação médica foi que a criança se envolvesse mais com essas atividades cerebrais no começo do dia, e no final tentasse brincar com outras coisas para não despertar esse comportamento cerebral. Na avaliação física encontrei algumas marcas alérgicas no pescoço e nas costas. Os cuidadores relataram que o menino está com manchas na pele desde um dia antes do seu aniversário. As manchas começaram a aparecer primeiro no pulso e no pescoço e depois apareceram pelas costas. As manchas não são profundas e são parecidas com as de outras crianças que foram atendidas aqui no consultório.<br>
+        <b>Data do Atendimento:</b> 28.02.1946
+        <br><br>
+        
+        <b>Nome:</b> Mia Gray<br>
+        <b>Nascimento:</b> 18.11.1941 <br>
+        <b>Motivo do Atendimento:</b> Irritação exacerbada<br>
+        <b>Avaliação:</b> Os cuidadores reclamavam de que a criança estava muito irritada nos últimos dias. A avaliação em conversa com os cuidadores e a criança revelaram que ela não dorme bem, pois tem medo do que “está se movendo no telhado dela”. Os cuidadores disseram que ela era muito imaginativa, inclusive reportando que a criança está mentindo falando que sabe ler e escrever, quando claramente isso foi feito por outros colegas. Além da irritação por falta de sono, a criança falou que está com marcas no punhos e próximo do pescoço. Assim como em outros casos, acredito que se trata de uma alergia e os cuidadores foram orientados acerca da dieta.<br>
+        <b>Data do Atendimento:</b> 20.11.1947
+    </p>
+</body>
+</html>
